@@ -1,0 +1,17 @@
+{
+    // コード整形
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit", // 明示的に保存したときのみ。（自動保存時は適用されない）
+        "source.organizeImports": "explicit"
+    },
+    "dart.flutterHotReloadOnSave": "never", // 保存（cmd+s）した時にホットリロードをしない。
+    "dart.runPubGetOnPubspecChanges": "never", //pubspec.yamlが更新された際にpub getをしない。
+    // 右クリックで「Goto Source Definition」にしなくても
+    // デフォルトのジャンプの動作がソース定義になる。
+    //"javascript.preferGoToSourceDefinition": true,
+    //"typescript.preferGoToSourceDefinition": true,
+    "markdown.styles": [
+        ".vscode/style.css"
+    ],
+}
