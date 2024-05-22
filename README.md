@@ -7,7 +7,7 @@
 * 書いてしまうことで初期化と廃棄を同じ箇所に書くことができる。
 
 ```
-class _ChildState extends State<_Child> with CallbacksOnStateMethod {
+class _MyState extends State<_Child> with CallbacksOnStateMethod {
     late final ScrollController _scrollController =
         ScrollController().onDispose(this, () {
         _scrollController.dispose();
