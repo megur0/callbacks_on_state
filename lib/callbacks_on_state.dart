@@ -1,7 +1,1 @@
-library callbacks_on_state;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/callbacks_on_state.dart';
